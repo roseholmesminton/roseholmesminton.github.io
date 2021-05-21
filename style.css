@@ -9,12 +9,16 @@ html {
   font-size: 16px;
   margin-top: 3em;
 }
-
+h4{
+  color:black;
+  padding-bottom: .5em;
+}
 h1,
 h2,
-h3,
-h4 {
+h3
+ {
   color: #666;
+  padding-bottom: .5em;
 }
 
 header,
@@ -22,6 +26,11 @@ main,
 footer {
   margin: 0 auto;
   max-width: 800px;
+}
+
+.fab fa-linkedin{
+  color: blue;
+  height:20px;
 }
 
 header {
@@ -50,12 +59,14 @@ nav a {
   color: #fff;
   padding: 0.5em 2em;
   text-decoration: none;
+  border-radius: 20px;
 }
 nav a:hover {
   background: #666;
 }
 section ul {
   padding-left: 1.5em;
+  padding-bottom: .3em;
 }
 #projects {
   display: grid;
@@ -63,19 +74,32 @@ section ul {
   grid-template-rows: auto;
   grid-gap: 1em;
 }
+#projects article h3{
+ text-align: center;
+}
+#projects article h4{
+  padding-top: .5em;
+}
 
 #projects article {
   background: #ccc;
   padding: 1em;
+  border-radius: 8px;
 }
 #projects article img {
   width: 100%;
   border: 1px solid #333;
   max-height: 4in;
+  border-radius: 15px;
 }
+#projects article img:hover {
+  border-color: #add8e6;
+  border-width: .25em;
+}
+
 figcaption {
   font-style: italic;
-  padding: 1em;
+  padding: .5em;
 }
 
 #about {
@@ -83,17 +107,23 @@ figcaption {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
   grid-gap: 1em;
+  
 }
 
 #about article {
   background: #ccc;
   padding: 1em;
+  border-radius: 8px;
+  
+
+
 }
 #about article img {
   max-width: 300px;
-  align-items:center;
   border: 1px solid #333;
   max-height: 250px;
+  border-radius: 15px;
+
 }
 
 section {
@@ -103,6 +133,7 @@ section {
 
 section > p {
   margin: 1em 0;
+  padding-bottom: .5em;
 }
 footer {
   margin-top: 2em;
