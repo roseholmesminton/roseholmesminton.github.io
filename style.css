@@ -9,16 +9,15 @@ html {
   font-size: 16px;
   margin-top: 3em;
 }
-h4{
-  color:black;
-  padding-bottom: .5em;
+h4 {
+  color: black;
+  padding-bottom: 0.5em;
 }
 h1,
 h2,
-h3
- {
+h3 {
   color: #666;
-  padding-bottom: .5em;
+  padding-bottom: 0.5em;
 }
 
 header,
@@ -27,10 +26,8 @@ footer {
   margin: 0 auto;
   max-width: 800px;
 }
-
-.fab fa-linkedin{
-  color: blue;
-  height:20px;
+#online p {
+  padding-bottom: 1em;
 }
 
 header {
@@ -59,14 +56,14 @@ nav a {
   color: #fff;
   padding: 0.5em 2em;
   text-decoration: none;
-  border-radius: 20px;
+  border-radius: 8px;
 }
 nav a:hover {
-  background: #666;
+  background: #add8e6;
 }
 section ul {
   padding-left: 1.5em;
-  padding-bottom: .3em;
+  padding-bottom: 0.3em;
 }
 #projects {
   display: grid;
@@ -74,11 +71,11 @@ section ul {
   grid-template-rows: auto;
   grid-gap: 1em;
 }
-#projects article h3{
- text-align: center;
+#projects article h3 {
+  text-align: center;
 }
-#projects article h4{
-  padding-top: .5em;
+#projects article h4 {
+  padding-top: 0.5em;
 }
 
 #projects article {
@@ -94,12 +91,12 @@ section ul {
 }
 #projects article img:hover {
   border-color: #add8e6;
-  border-width: .25em;
+  border-width: 0.25em;
 }
 
 figcaption {
   font-style: italic;
-  padding: .5em;
+  padding: 0.5em;
 }
 
 #about {
@@ -107,23 +104,18 @@ figcaption {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
   grid-gap: 1em;
-  
 }
 
 #about article {
   background: #ccc;
   padding: 1em;
   border-radius: 8px;
-  
-
-
 }
-#about article img {
+#headshot {
   max-width: 300px;
   border: 1px solid #333;
   max-height: 250px;
   border-radius: 15px;
-
 }
 
 section {
@@ -133,7 +125,7 @@ section {
 
 section > p {
   margin: 1em 0;
-  padding-bottom: .5em;
+  padding-bottom: 0.5em;
 }
 footer {
   margin-top: 2em;
@@ -145,4 +137,17 @@ footer {
 }
 #copyright {
   font-size: smaller;
+}
+#linkedIn {
+  background-color: white;
+}
+#linkedIn:hover {
+  background-color: #add8e6;
+}
+#gitHub {
+  background-color: white;
+}
+
+#gitHub:hover {
+  background-color: #add8e6;
 }
